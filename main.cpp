@@ -6,6 +6,5 @@ int main() {
   Sculptor s(10, 10, 10);
   s.setColor(1, 0, 0, 1); 
   s.putVoxel(5, 4, 2);
-  s.writeOFF("teste.off");
   return 0;
 }
